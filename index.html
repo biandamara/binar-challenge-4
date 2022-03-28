@@ -20,46 +20,44 @@
             </div>
 
             <!-- kolom permainan batu kertas gunting -->
-            <div class="game-container">
+            <div id="game-container">
                 <!-- kolom pemain -->
                 <div class="player-column">
                     <h1>PLAYER</h1>
-                    <button class="player-rock" type="button">
-                        <img src="./assets/img/rock.png" alt="rock" />
+                    <button class="rock-button">
+                        <img class="rock" src="./assets/img/rock.png" alt="rock" />
                     </button>
-                    <button class="player-paper" type="button">
-                        <img src="./assets/img/paper.png" alt="paper" />
+                    <button class="paper-button">
+                        <img class="paper" src="./assets/img/paper.png" alt="paper" />
                     </button>
-                    <button class="player-scissors" type="button">
-                        <img src="./assets/img/scissors.png" alt="scissors" />
+                    <button class="scissors-button">
+                        <img class="scissors" src="./assets/img/scissors.png" alt="scissors" />
                     </button>
                 </div>
 
                 <!-- kolom versus dan hasil permainan -->
                 <div class="vs-result-column">
-                    <div class="versus-result-display">
-                        <p class="display">VS</p>
-                    </div>
+                    <label class="display">VS</label>
                 </div>
 
                 <!-- kolom komputer -->
                 <div class="com-column">
                     <h1>COM</h1>
-                    <div class="com-rock" type="button">
-                        <img src="./assets/img/rock.png" alt="rock" />
+                    <div>
+                        <img class="com-rock" src="./assets/img/rock.png" alt="rock" />
                     </div>
-                    <div class="com-paper">
-                        <img src="./assets/img/paper.png" alt="paper" />
+                    <div>
+                        <img class="com-paper" src="./assets/img/paper.png" alt="paper" />
                     </div>
-                    <div class="com-scissors">
-                        <img src="./assets/img/scissors.png" alt="scissors" />
+                    <div>
+                        <img class="com-scissors" src="./assets/img/scissors.png" alt="scissors" />
                     </div>
                 </div>
             </div>
 
             <!-- tombol bermain kembali -->
-            <div class="refresh-button">
-                <button type="button" value="Refresh" onClick="refresh(this)">
+            <div id="refresh-button">
+                <button class="button" value="refresh" onClick="refresh(this)">
                     <img src="./assets/img/refresh.png" alt="refresh" />
                 </button>
             </div>

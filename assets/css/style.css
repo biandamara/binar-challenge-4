@@ -8,6 +8,7 @@ body {
     height: 100vh;
 }
 
+/* landing-page permainan batu gunting kertas */
 #page-game-play {
     display: flex;
     flex-direction: column;
@@ -37,7 +38,7 @@ body {
 }
 
 /* kolom permainan */
-.game-container {
+#game-container {
     justify-content: space-around;
     text-align: center;
     display: flex;
@@ -74,30 +75,30 @@ body {
     flex-direction: column;
 }
 
-.vs-result-column .versus-result-display {
+.vs-result-column .display {
     font-size: 64px;
     font-weight: bold;
     color: red;
 }
 
 /* tombol bermain kembali */
-.refresh-button {
+#refresh-button {
     justify-content: center;
     display: flex;
 }
 
-.refresh-button button {
+#refresh-button button {
     background-color: transparent;
     border: 0;
 }
 
-.refresh-button img {
+#refresh-button img {
     width: 64px;
     height: 64px;
     padding: 32px;
 }
 
-.refresh-button img:hover {
+#refresh-button img:hover {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
 }
